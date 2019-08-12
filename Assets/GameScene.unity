@@ -985,6 +985,7 @@ MonoBehaviour:
   carPrefab: {fileID: 1658327115012508, guid: c54a60c6d0542cc419d834defba37667, type: 2}
   coinPrefab: {fileID: 1771326079899268, guid: 84413d9d706caf84cb45f8a5a75a255d, type: 2}
   conePrefab: {fileID: 1729993521479714, guid: 896bf61da6003c54a80e19d3b0306b86, type: 2}
+  unitychan: {fileID: 1640106993}
 --- !u!4 &1390914744
 Transform:
   m_ObjectHideFlags: 0
@@ -1317,7 +1318,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 319959614
+  randomSeed: -623370822
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4757,6 +4758,7 @@ GameObject:
   - component: {fileID: 1678775383}
   - component: {fileID: 1678775385}
   - component: {fileID: 1678775384}
+  - component: {fileID: 1678775386}
   m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
@@ -4821,6 +4823,26 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1678775382}
+--- !u!223 &1678775386
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1678775382}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1891727571
 GameObject:
   m_ObjectHideFlags: 0
@@ -5024,7 +5046,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
